@@ -1,0 +1,57 @@
+#HOME{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+.title1 h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+.title1 h3 {
+font-size: 2 rem;
+font-weight: 600;
+}
+.linav li a{
+
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    animation-name: nav;
+
+}
+
+
+.linav li:hover a::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 0;
+right: 0%;
+width: 90%;
+height: 3px;
+background-color: rgba(255, 0, 0, 0.468);
+animation: nav .5s alternate ;
+
+
+}
+@keyframes nav {
+
+    0% {
+        width: 0%;
+
+    }
+    
+    100% {
+        width: 90%;
+        
+    }
+}
+#Ourloc {
+    background-color: #a97a531c;
+}
+#About{
+    background-color: #403D38;
+}
+footer{
+    background-color: #2B2721;
+}
